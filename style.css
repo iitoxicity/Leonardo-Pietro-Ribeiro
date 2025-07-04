@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    color: blue
+}
+body{
+    background-color: #b8daf7;
+}
+table{
+    text-align: center;
+    border-color: slateblue;
+    background-color: dimgrey;
+    margin: 40px auto;
+    width: 40%;
+ 
+
+}
+p{
+    text-align: center;
+    font-size: 22px;
+}
+ul li{
+       padding-bottom: 40px;
+       font-size: large;
+       
+
+       
+}
+img{
+    
+    border-radius: 15px;
+}
+div img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+h2{ 
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+    text-decoration-line: underline;
+}
+h3{ 
+    text-align: center;
+    font-weight: 100;
+    text-decoration-line: underline;
+    font-size: x-large;
+    
+    }
+a{
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}  
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+.link{  
+    flex-direction: column;
+    text-align: center;
+
+}
+#botao{
+    display: block; 
+    margin: 25px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #020f3b; 
+    background-color: #1000ee; 
+    border: none; 
+    cursor: pointer; 
+    
+}
+
+#botao:hover {
+    background-color: #02d9f5; 
+    color: #776e21; 
+    transform: scale(1.05); 
+}
+.mensagem{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(209, 84, 12);
+    font-family: Verdana,Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
